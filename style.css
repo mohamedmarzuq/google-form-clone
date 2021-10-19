@@ -1,0 +1,28 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    /* font-size: 25px; */
+    font-family: "Montserrat";
+    background-color: #000;
+}
+
+#title {
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #F5F5F7;
+    font-size: 4rem;
+}
+
+#description {
+    text-align: center;
+    margin-top: -20px;
+    /* background-color: aquamarine; */
+    color: #A1A1A6;
+    font-weight: 500;
+    font-size: 1.9rem;
+    letter-spacing: 0.1px;
+}
+
