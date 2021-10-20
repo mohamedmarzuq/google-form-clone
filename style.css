@@ -6,6 +6,15 @@ body {
     /* font-size: 25px; */
     font-family: "Montserrat";
     background-color: #000;
+    color: #F5F5F7;
+}
+
+#main {
+    background-color: aquamarine;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 #title {
@@ -23,6 +32,5 @@ body {
     color: #A1A1A6;
     font-weight: 500;
     font-size: 1.9rem;
-    letter-spacing: 0.1px;
 }
 
