@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 10px;
 }
@@ -9,12 +15,12 @@ body {
     color: #F5F5F7;
 }
 
+/* #main{background-color: aquamarine;} .container{background-color: black;} .form-group{background-color:cornflowerblue;} .form-control{background-color: coral;} */
+
 #main {
-    background-color: aquamarine;
     max-width: 1140px;
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
+    padding: 2.6rem;
 }
 
 #title {
@@ -27,10 +33,52 @@ body {
 
 #description {
     text-align: center;
-    margin-top: -20px;
+    margin-top: 5px;
     /* background-color: aquamarine; */
     color: #A1A1A6;
     font-weight: 500;
     font-size: 1.9rem;
 }
 
+
+
+#survey-form {
+    padding-top: 15px;
+}
+
+.form-group {
+    font-size: 15px;
+    max-width: 30rem;
+    margin: 2rem auto 0;
+}
+
+.form-control {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 0.35rem;
+    border: none;
+    margin: 0 auto;
+    outline: none;
+}
+
+input,
+.form-control:placeholder-shown {
+    padding-left: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border: 0.15rem solid #1d1d1f;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
