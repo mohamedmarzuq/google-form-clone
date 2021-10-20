@@ -10,9 +10,9 @@ html {
 
 body {
     /* font-size: 25px; */
-    font-family: "Montserrat";
-    background-color: #000;
-    color: #F5F5F7;
+    font-family: 'Google Sans', Helvetica, Arial, sans-serif, "Montserrat";
+    background-color: rgb(226, 238, 224);
+    color: #202124;
 }
 
 /* #main{background-color: aquamarine;} .container{background-color: black;} .form-group{background-color:cornflowerblue;} .form-control{background-color: coral;} */
@@ -27,17 +27,23 @@ body {
     text-align: center;
     font-weight: normal;
     line-height: 1.2;
-    color: #F5F5F7;
+    /* color: #F5F5F7; */
     font-size: 4rem;
 }
 
+#title-div {
+    width: 20px;
+    background-color: blue;
+}
+
 #description {
-    text-align: center;
-    margin-top: 5px;
+    color: blue;
+    /* text-align: center;
+    margin-top: 5px; */
     /* background-color: aquamarine; */
-    color: #A1A1A6;
-    font-weight: 500;
-    font-size: 1.9rem;
+    /* color: #A1A1A6; */
+    /*font-weight: 500;
+    font-size: 1.9rem; */
 }
 
 
