@@ -75,7 +75,32 @@ span {
     max-width: 640px;
 }
 
+#submit-div {
+    background-color: transparent;
+    height: auto;
+    padding: 0;
+    display: flex;
+}
 
+#submit {
+    width: 95.438px !important;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    height: 35.714px;
+    border: none;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+
+#clear-form {
+    color: #1a73e8;
+    margin: auto 0 auto;
+    margin-left: auto;
+}
 
 #dropdown-gender {
     height: 150px;
