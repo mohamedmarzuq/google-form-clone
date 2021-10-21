@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laptop Users survey</title>
+    <title>Contact information</title>
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,26 +27,48 @@
                 </div>
         
                 <div class="form-group">
-                    <label id="name-label" for="name">Email</label> <br>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+                    <label id="email-label" for="name">Email <span>*</span></label> <br>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
                 </div>      
                 
                 <div class="form-group">
-                    <label id="name-label" for="name">Number</label> <br>
-                    <input type="number" name="number" id="number" class="form-control" placeholder="Enter your number" minlength="10" maxlength="10" required>
+                    <label id="number-label" for="name">Number <span>*</span></label> <br>
+                    <input type="number" name="number" id="number" class="form-control" placeholder="Your number" min="0000000000000" max="9999999999" required>
                 </div>
                   
-                <!--<div class="form-group">
-                    <label id="name-label" for="name">Gender</label> <br>
-                    <select name="role" id="dropdown" class="form-control"></select>
+                <div id="dropdown-gender" class="form-group">
+                    <label id="name-label" for="dropdown">Gender <span>*</span></label> <br>
+                    <select name="role" id="dropdown" class="form-control">
+                        <option id="choose" disabled selected value="0">Choose</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="Don't want to say">Prefer not to say</option>
+                    </select>
                 </div>
         
-                <div class="form-group">
-                    <label id="name-label" for="name">Email</label> <br>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your Email" required>
+                <div id="div-radio-form" class="form-group">
+                    <p>Age <span>*</span></p> <br>
+                    <label id="radio-form" for="">
+                        <input type="radio"
+                            value="6-15"
+                            name="input-radio"
+                        > &nbsp; &nbsp; &nbsp; &nbsp; 6 to 15
+                    </label> <br> <br>
+                    <label id="radio-form" for="">
+                        <input type="radio"
+                            value="18-30"
+                            name="input-radio"
+                        > &nbsp; &nbsp; &nbsp; &nbsp; 18 to 30
+                    </label> <br> <br>
+                    <label id="radio-form" for="">
+                        <input type="radio"
+                            value="31-50"
+                            name="input-radio"
+                        > &nbsp; &nbsp; &nbsp; &nbsp; 31 to 50
+                    </label>
                 </div>
 
-                <div class="form-group">
+               <!-- <div class="form-group">
                     <input type="submit" id="submit" class="submit-button">
                 </div>-->
         
