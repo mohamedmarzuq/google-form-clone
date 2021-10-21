@@ -92,6 +92,29 @@ span {
     outline-color: #000;
 }
 
+textarea {
+    resize: none; 
+    border: none;
+    outline: transparent;
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 24px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    margin: 0;
+    width: 500px;
+    /* background-color: turquoise; */
+}
+
+@media only screen and (max-width: 595px) {
+    #main {
+        /* background-color: turquoise; */
+    }
+
+    textarea {
+        width: 300px;
+    }
+}
+
 #radio-form {
     position: relative;
 } 
@@ -117,7 +140,8 @@ textarea:focus {
 
 input[type=text],
 input[type=email],
-input[type=number] {
+input[type=number],
+textarea {
     border: none;
     border-top: tomato;
     border-bottom: 2px solid rgba(0,0,0,0.12);
