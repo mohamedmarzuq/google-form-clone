@@ -24,7 +24,8 @@ body {
 
 input[type=text] {
     border: none;
-    border-bottom: 2px solid red;
+    border-top: tomato;
+    border-bottom: 2px solid rgba(0,0,0,0.12);
 }
 
 #photo-div {
@@ -32,9 +33,9 @@ input[type=text] {
     background-size: cover;
     background-position: center;
     height: 160px;
-    width: 640px;
+    max-width: 640px;
     border-radius: 8px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
 #title {
@@ -47,9 +48,9 @@ input[type=text] {
 #title-div {
     border-top: 10px solid rgb(61, 143, 45);
     height: 109px;
-    width: 640px;
+    max-width: 640px;
     background-color: #fff;
-    margin: 10px auto;
+    margin: 0 auto 10px;
     padding-top: 10px;
     padding-left: 15px;
     border-radius: 8px;
@@ -61,30 +62,32 @@ input[type=text] {
     font-size: 14px;
 }
 
-
-
-#survey-form {
-    padding-top: 15px;
+span {
+    color: red;
 }
 
 .form-group {
-    font-size: 15px;
-    max-width: 30rem;
-    margin: 2rem auto 0;
+    background-color: #fff;
+    height: 120px;
+    color: #202124 !important;
+    max-width: 640px;
+    border-radius: 8px;
+    margin: 0 auto 10px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 16px;
 }
 
 .form-control {
-    width: 30rem;
-    height: 3rem;
-    border-radius: 0.35rem;
-    border: none;
-    margin: 0 auto;
-    outline: none;
+    margin-top: 30px;
+    /* border: 1px solid blueviolet; */
+    outline-color: transparent;
 }
 
 input,
 .form-control:placeholder-shown {
-    padding-left: 1rem;
+    padding-left: 0;
+    font-size: 14px;
 }
 
 input:focus,
