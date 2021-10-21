@@ -12,7 +12,6 @@ body {
     /* font-size: 25px; */
     font-family: 'Google Sans', Helvetica, Arial, sans-serif, "Montserrat";
     background-color: rgb(226, 238, 224);
-    color: #202124;
 }
 
 /* #main{background-color: aquamarine;} .container{background-color: black;} .form-group{background-color:cornflowerblue;} .form-control{background-color: coral;} */
@@ -23,27 +22,43 @@ body {
     padding: 2.6rem;
 }
 
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+#photo-div {
+    background-image: url(https://lh4.googleusercontent.com/ZziBuRfPl7nTEbp8dattzLvnxb49VWB0HEmFzyEmB_p1wE2hsSQYIxMOc6IlwtujzSK1FMqE61j5Gs0RMXfRsSQZexJ_CKhjKuPMVa882tQM9yK2Cwc46V1mwJ15qyV6Hg=w1200);
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    width: 640px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
 #title {
-    text-align: center;
-    font-weight: normal;
-    line-height: 1.2;
+    /* text-align: center; */
+    font-weight: 400;
     /* color: #F5F5F7; */
-    font-size: 4rem;
+    font-size: 32px;
 }
 
 #title-div {
-    width: 20px;
-    background-color: blue;
+    border-top: 10px solid rgb(61, 143, 45);
+    height: 109px;
+    width: 640px;
+    background-color: #fff;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 8px;
 }
 
 #description {
-    color: blue;
-    /* text-align: center;
-    margin-top: 5px; */
-    /* background-color: aquamarine; */
-    /* color: #A1A1A6; */
-    /*font-weight: 500;
-    font-size: 1.9rem; */
+    margin-top: 12px; 
+    font-weight: 500;
+    font-size: 14px;
 }
 
 
@@ -74,7 +89,7 @@ input,
 
 input:focus,
 textarea:focus {
-  border: 0.15rem solid #1d1d1f;
+  border: 0.15rem solid #fff;
 }
 
 /* Chrome, Safari, Edge, Opera */
